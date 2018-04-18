@@ -24,6 +24,7 @@ For a documented list of commands, please go to ???.
 * Add a license
 
 ## Credits
+* [Favna](https://github.com/Favna) for Ribbon as my inspiration.
 * [k23usa](https://www.reddit.com/user/k23usa) on reddit for the bot's icon.
 * THUNDER KAI#9460 on Discord for the idea.
 * All of the dependencies listed in [package.json](https://github.com/KunoichiZ/feh-summoning-bot/blob/master/package.json).
