@@ -1,0 +1,35 @@
+{
+  "name": "feh-summoning-bot",
+  "version": "0.0.0",
+  "description": "A Fire Emblem Heroes Summoning Simulation Discord Bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KunoichiZ/feh-summoning-bot.git"
+  },
+  "keywords": [
+    "discord.js",
+    "discord.js-commando",
+    "feh",
+    "fire emblem heroes",
+    "summoning",
+    "orbs",
+    "discord bot"
+  ],
+  "author": "KunoichiZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KunoichiZ/feh-summoning-bot/issues"
+  },
+  "homepage": "https://github.com/KunoichiZ/feh-summoning-bot/blob/master/README.md",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "discord.js-commando": "^0.9.0",
+    "fire-emblem-heroes-stats": "^0.15.0",
+    "moment": "^2.22.1",
+    "sqlite": "^2.9.1"
+  }
+}
