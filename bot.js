@@ -1,12 +1,11 @@
-const { CommandoClient, SQLiteProvider } = require('discord.js-commando');
+const  Commando = require('discord.js-commando');
 const path = require('path');
 const sqlite = require('sqlite');
 const token = require('./data/settings.json').token;
-const prefix = require('./data/settings.json').prefix;
 const activities = require('./data/activities.json');
 
 
-const client = new CommandoClient ({
+const client = new Commando.Client ({
     owner: '147800635046232064',
     commandPrefix: '\\',
     disableEveryone: true,
@@ -19,12 +18,11 @@ client.on('ready', () => {
 		const activity = activities[Math.floor(Math.random() * activities.length)];
 		client.user.setActivity(activity.text, { type: activity.type });
     }, 60000);
-    console.log(prefix);
 });
 
-sqlite.open(path.join(__dirname, "settings.sqlite3")).then((db) => {
-     client.setProvider(new SQLiteProvider(db));
-})
+client.setProvider(
+  sqlite.open(path.join(__dirname, 'settings.sqlite3')).then(db => new Commando.SQLiteProvider(db))
+ ).catch(console.error);
 
 client.registry
     .registerDefaultTypes()
@@ -35,7 +33,13 @@ client.registry
         ['test', 'Test Commands']
     ])
     .registerDefaultGroups()
-    .registerDefaultCommands()
+    .registerDefaultCommands({
+        'help': true,
+        'prefix': true,
+        'ping': true,
+        'eval_': true,
+        'commandState': true
+      })
     .registerCommandsIn(path.join(__dirname, 'commands'));
 
-client.login(token)
+client.login(token);
