@@ -62,3 +62,6 @@ typings/
 
 #.txts
 *.txt
+
+# ignore sqlite databases
+*.sqlite3
