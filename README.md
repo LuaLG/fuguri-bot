@@ -18,7 +18,7 @@ For a documented list of commands, please go to ???.
 * kai = shows a picture that says not to bully Kai
 * kuu = sends Kuuhaku an emote and displays a random image
 * leaderboard = Displays the top 5 leaders in orb amounts for that specific server
-* listguilds = Retrieves the number of guilds the bot is in and the list of the guilds
+* listguilds = Retrieves the number of guilds the bot is in and the list of the guilds (%)
 * marry = Marries the message author to the user specified
 * reply = Test command, replies with "Hi, I'm awake!"
 * say = Repeats the text entered.
