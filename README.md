@@ -50,8 +50,15 @@ For a documented list of commands, please go to ???.
 * Add a license
 
 ## Credits
-* Chriscox462#8874 on Discord for the bot's new name, Minarobo. I added the extra "n" to make it "Minnarobo", which can roughly translate from Japanese as "everyone's robo" or "everyone's robot".
-* [Favna](https://github.com/Favna) for Ribbon as my inspiration.
-* [Rohul1997](http://github.com/Rohul1997) for the custom server prefix code.
-* THUNDER KAI#9460 on Discord for the idea.
+* [AcedArmy](https://github.com/AcedArmy) for his help on some of the code and for helping with any other issues I've had.
+* All of the dependencies listed in [package.json](https://github.com/KunoichiZ/fuguri-bot/blob/master/package.json).
+* Chriscox462#8874 on Discord for the bot's old name, Minarobo. I added the extra "n" to make it "Minnarobo", which can roughly translate from Japanese as "everyone's robo" or "everyone's robot".
+* [dragonfire535](https://github.com/dragonfire535/xiao) for the randomized Bot activity code and idea.
+* [faizal101](https://github.com/faizal101) for some imput on some things and for adding sqlite.
+* [Favna](https://github.com/Favna) for Ribbon as my inspiration and for his help on the Salmon Run time formatting, for the say/saywut commands, and for helping with any other issues I've had.
+* [misenhower](https://github.com/misenhower/splatoon2.ink) for Splatoon2.ink, which is where I will be getting my Splatoon 2 data from.
+* Original inspiration was the [Spyke Discord Bot](https://discordbots.org/bot/340354052715970563).
+* [Rohul1997](http://github.com/Rohul1997) for his help on fixing the time formatting, and for helping any other issues I've had.
+* [Threebow](https://www.youtube.com/channel/UC5UnYgoBRBHqGV-X-zroQWg) for his YouTube tutorials.
+* THUNDER KAI#9460 on Discord for the summoning idea.
 * All of the dependencies listed in [package.json](https://github.com/KunoichiZ/minnarobo-bot/blob/master/package.json).
