@@ -1,35 +1,61 @@
 {
-  "name": "feh-summoning-bot",
-  "version": "0.0.0",
-  "description": "A Fire Emblem Heroes Summoning Simulation Discord Bot",
+  "name": "Fuguri",
+  "version": "0.1.0",
+  "description": "A general Discord bot built with discord.js-commando and discord.js. Currently features Fire Emblem Heroes summoning, orb spending, and many more features.",
   "main": "bot.js",
   "scripts": {
-    "test": "node bot.js"
+    "test": "node bot.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KunoichiZ/feh-summoning-bot.git"
+    "url": "git+https://github.com/KunoichiZ/minnarobo-bot.git"
   },
   "keywords": [
+    "discord",
+    "discord bot",
     "discord.js",
     "discord.js-commando",
     "feh",
     "fire emblem heroes",
-    "summoning",
+	"fuguri",
+    "minnarobo",
+    "node.js",
     "orbs",
-    "discord bot"
+    "pokemon",
+    "splatoon 2",
+    "summoning"
   ],
+  "engines": {
+    "node": "8.11.1",
+    "npm": "6.0.0"
+  },
   "author": "KunoichiZ",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KunoichiZ/feh-summoning-bot/issues"
+    "url": "https://github.com/KunoichiZ/minnarobo-bot/issues"
   },
-  "homepage": "https://github.com/KunoichiZ/feh-summoning-bot/blob/master/README.md",
+  "homepage": "https://github.com/KunoichiZ/minnarobo-bot/blob/master/README.md",
   "dependencies": {
-    "discord.js": "^11.3.2",
-    "discord.js-commando": "^0.9.0",
-    "fire-emblem-heroes-stats": "^0.15.0",
+    "better-sqlite3": "^4.1.0",
+    "canvas-constructor": "^1.0.1",
+    "discord-money": "^0.2.0",
+    "discord.js": "git+https://github.com/discordjs/discord.js.git",
+    "discord.js-commando": "git+https://github.com/discordjs/Commando.git",
+    "eightball": "^1.0.1",
+    "fire-emblem-heroes-stats": "^0.15.1",
+    "imgur": "^0.2.1",
     "moment": "^2.22.1",
-    "sqlite": "^2.9.1"
+    "moment-duration-format": "^2.2.2",
+    "node-gyp": "^3.6.2",
+    "node-opus": "^0.2.7",
+    "poke-api.js": "^1.0.4",
+    "request": "^2.85.0",
+    "simple-youtube-api": "^5.0.1",
+    "sqlite": "^2.9.1",
+    "ytdl-core": "^0.20.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
   }
 }
