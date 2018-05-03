@@ -17,7 +17,7 @@ module.exports = class BalanceCommand extends Command {
             group: 'currency',
             aliases: ['lb'],
             memberName: 'leaderboard',
-            description: 'Displays the top 5 leaders in orb amounts',
+            description: 'Displays the top 5 leaders in orb amounts for that specific server',
             examples: ['leaderboard']
         });
     }

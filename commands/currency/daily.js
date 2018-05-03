@@ -13,7 +13,7 @@ module.exports = class DailyCommand extends Command {
             group: 'currency',
             aliases: ['login', 'day'],
             memberName: 'daily',
-            description: 'Receive your daily orb balance!',
+            description: 'Receive your daily orb bonus!',
             examples: ['daily'],
             throttling: {
                 usages: 1,

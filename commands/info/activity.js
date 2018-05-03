@@ -8,7 +8,7 @@ module.exports = class ActivityCommand extends Command {
             aliases: ['presence'],
             group: 'info',
             memberName: 'activity',
-            description: 'Displays information about a certain user',
+            description: 'Displays the activity of a specific user',
             examples: ['activity AinoMinako'],
             guildOnly: true,
             args: [
