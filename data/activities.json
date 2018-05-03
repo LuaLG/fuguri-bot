@@ -1,6 +1,6 @@
 [
 	{
-		"text": "@FEH Bot#3163 help",
+		"text": "@Fuguri#3163 help",
 		"type": "WATCHING"
 	},
 	{
@@ -8,7 +8,23 @@
 		"type": "PLAYING"
 	},
 	{
+		"text": "Splatoon 2",
+		"type": "PLAYING"
+	},
+	{
+		"text": "Pokemon FireRed & LeafGreen",
+		"type": "PLAYING"
+	},
+	{
 		"text": "Fire Emblem Heroes Soundtrack",
+		"type": "LISTENING"
+	},
+	{
+		"text": "Splatoon 2 Soundtrack",
+		"type": "LISTENING"
+	},
+	{
+		"text": "Pokemon FireRed & LeafGreen Soundtrack",
 		"type": "LISTENING"
 	},
 	{
@@ -21,6 +37,10 @@
 	},
 	{
 		"text": "Fire Emblem Heroes Summoning",
+		"type": "STREAMING"
+	},
+	{
+		"text": "Splatoon 2",
 		"type": "STREAMING"
 	}
 ]
