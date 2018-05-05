@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KunoichiZ/minnarobo-bot.git"
+    "url": "git+https://github.com/KunoichiZ/fuguri-bot.git"
   },
   "keywords": [
     "discord",
@@ -18,7 +18,7 @@
     "discord.js-commando",
     "feh",
     "fire emblem heroes",
-	"fuguri",
+    "fuguri",
     "minnarobo",
     "node.js",
     "orbs",
@@ -33,9 +33,9 @@
   "author": "KunoichiZ",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KunoichiZ/minnarobo-bot/issues"
+    "url": "https://github.com/KunoichiZ/fuguri-bot/issues"
   },
-  "homepage": "https://github.com/KunoichiZ/minnarobo-bot/blob/master/README.md",
+  "homepage": "https://github.com/KunoichiZ/fuguri-bot/blob/master/README.md",
   "dependencies": {
     "better-sqlite3": "^4.1.0",
     "canvas-constructor": "^1.0.1",

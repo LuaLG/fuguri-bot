@@ -60,8 +60,16 @@ typings/
 # next.js build output
 .next
 
-#.txts
+#.txts, .docxs, .js
 *.txt
+*.docx
+*.js
 
 # ignore sqlite databases
 *.sqlite3
+*.sqlite
+
+# Not needed folders
+commands to edit
+commands to make
+data
