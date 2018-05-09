@@ -38,13 +38,11 @@
   "homepage": "https://github.com/KunoichiZ/fuguri-bot/blob/master/README.md",
   "dependencies": {
     "better-sqlite3": "^4.1.0",
-    "canvas-constructor": "^1.0.1",
     "discord-money": "^0.2.0",
     "discord.js": "git+https://github.com/discordjs/discord.js.git",
     "discord.js-commando": "git+https://github.com/discordjs/Commando.git",
     "eightball": "^1.0.1",
     "fire-emblem-heroes-stats": "^0.15.1",
-    "imgur": "^0.2.1",
     "moment": "^2.22.1",
     "moment-duration-format": "^2.2.2",
     "node-gyp": "^3.6.2",
