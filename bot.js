@@ -1,6 +1,5 @@
-const Commando = require('discord.js-commando');
+const { Client, SyncSQLiteProvider } = require('discord.js-commando');
 const path = require('path');
-const sqlite = require('sqlite');
 var fs = require('fs');
 const token = require('./data/settings.json').token;
 const activities = require('./data/activities.json');
@@ -10,7 +9,7 @@ var xp =  JSON.parse(fs.readFileSync(path.join(__dirname, './data/xp.json'), "ut
 var balance =  JSON.parse(fs.readFileSync(path.join(__dirname, './data/balances.json'), "utf8"));
 const money = require('discord-money');
 
-const client = new Commando.Client ({
+const client = new Client ({
     owner: '147800635046232064',
     commandPrefix: '\\',
     disableEveryone: true,
@@ -88,16 +87,12 @@ client.on('message', msg => {
     }
 })
 
-//const db = new Database(path.join(__dirname, 'settings.sqlite3'));
+const db = new Database(path.join(__dirname, 'settings.sqlite3'));
+ 
 client.setProvider(
-  sqlite.open(path.join(__dirname, 'settings.sqlite3')).then(db => new Commando.SQLiteProvider(db))
- ).catch(console.error);
+    new SyncSQLiteProvider(db)
+);
 
- /*
-this.client.setProvider(
-      new SQLiteProvider(db)
-    );
- */
 
 client.registry
     .registerDefaultTypes()
