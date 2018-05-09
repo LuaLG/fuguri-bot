@@ -41,17 +41,19 @@ module.exports = class DailyCommand extends Command {
             if(balance[msg.author.id]) {
                 // set the date the user last obtained the daily orbs
                 balance[msg.author.id].orbs.lastDaily = gotDaily;
-            }
 
-            // update the user's balance
-            money.updateBal(msg.author.id, 20).then((i) => {
-                msg.channel.send("You received your daily log-in bonus of **20 orbs!**");
-            });
+                // update the user's balance
+                money.updateBal(msg.author.id, 20).then((i) => {
+                    msg.channel.send("You received your daily log-in bonus of **20 orbs!**");
+                });
             
-            // write the info to the json
-            fs.writeFile(path.join(__dirname, '../../data/balances.json'), JSON.stringify(balance, null, 4), (err) => {
-                if (err) console.error(err)
-            });
+                // write the info to the json
+                fs.writeFile(path.join(__dirname, '../../data/balances.json'),   JSON.stringify(balance, null, 4), (err) => {
+                    if (err) console.error(err)
+                });
+            } else {
+                msg.reply(`You aren't in the database! Please use the ${msg.guild.commandPrefix}join to get yourself entered.`);
+            }
         }
     }
 };
