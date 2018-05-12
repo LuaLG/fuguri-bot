@@ -26,6 +26,6 @@ module.exports = class AvatarCommand extends Command {
             'user': args.member.user
           };
 
-        msg.channel.send(vals.user.displayAvatarURL)
+        msg.channel.send(vals.user.displayAvatarURL({format: 'png'}))
       }
 };
