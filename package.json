@@ -46,7 +46,7 @@
     "moment": "^2.22.1",
     "moment-duration-format": "^2.2.2",
     "node-gyp": "^3.6.2",
-    "node-opus": "^0.2.9",
+    "node-opus": "^0.3.0",
     "poke-api.js": "^1.0.4",
     "request": "^2.85.0",
     "simple-youtube-api": "^5.0.2",
