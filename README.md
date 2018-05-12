@@ -1,6 +1,6 @@
 # Fuguri Discord Bot
 
-<img src="https://img.shields.io/badge/progress-20.85%25-orange.svg"> &nbsp; <img src="https://img.shields.io/badge/bot%20version-0.1.0-BC57B4.svg"> &nbsp; <img src="https://img.shields.io/badge/npm-6.0.0-1ABC9C.svg"> &nbsp; <img src="https://img.shields.io/badge/node-8.11.1-E91E63.svg">
+<img src="https://img.shields.io/badge/progress-20.85%25-orange.svg"> &nbsp; <img src="https://img.shields.io/badge/bot%20version-0.1.0-BC57B4.svg"> &nbsp; <img src="https://img.shields.io/badge/npm-6.0.1-1ABC9C.svg"> &nbsp; <img src="https://img.shields.io/badge/node-8.11.1-E91E63.svg">
 
 A WIP Discord.js and Discord.js-Commando Bot for Fire Emblem Heroes summoning simulations and various other functions. Currently being deployed to discord for testing on a Windows 10 laptop. Soon to be deployed to Discord on a Raspberry Pi 3 Model 3.
 
