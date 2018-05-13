@@ -42,7 +42,7 @@ For a documented list of commands, please go to ???.
 * Add currency commands
 * Add summoning commands
 * Add misc commands
-* Get images of all available units to use for summoning.
+* Get images of all available units to use for Fire Emblem Heroes summoning.
 * Finish rewrite from [off-the-hook-bot](https://www.github.com/KunoichiZ/off-the-hook-bot) and merge into one bot
 * Work on support server
 * Add proper comments to code and commands
