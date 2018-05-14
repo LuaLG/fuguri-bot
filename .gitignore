@@ -69,9 +69,6 @@ typings/
 *.sqlite3
 *.sqlite
 
-# pictures
-*.png
-
 # Not needed folders
 commands to edit
 commands to make
