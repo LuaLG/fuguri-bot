@@ -101,7 +101,7 @@ client.on('message', (msg) => {
   return null;
 });
 
-const db = new Database(path.join(__dirname, 'settings.sqlite3'));
+const db = new Database(path.join(__dirname, 'data/databases/settings.sqlite3'));
 
 client.setProvider(
   new SyncSQLiteProvider(db)
