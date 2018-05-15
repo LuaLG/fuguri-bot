@@ -12,7 +12,7 @@ const Database = require('better-sqlite3'),
   {Client, FriendlyError, SyncSQLiteProvider} = require('discord.js-commando');
 
 const client = new Client({
-  owner: ['147800635046232064', '112001393140723712'],
+  owner: '147800635046232064',
   commandPrefix: process.env.prefix,
   disableEveryone: true,
   unknownCommandResponse: false,
