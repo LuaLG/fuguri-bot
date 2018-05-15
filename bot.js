@@ -4,11 +4,11 @@ require('dotenv').config({path: path.join(__dirname, 'data/.env')});
 
 const Database = require('better-sqlite3'),
   activities = require(path.join(__dirname, 'data/activities.json')),
-  fs = require('fs'),
-  balance = JSON.parse(fs.readFileSync(path.join(__dirname, 'data/balances.json'), 'utf8')),
+  jsonfile = require('jsonfile'),
+  balance = jsonfile.readFileSync(path.join(__dirname, 'data/balances.json')),
   money = require('discord-money'),
-  xp = JSON.parse(fs.readFileSync(path.join(__dirname, 'data/xp.json'), 'utf8')),
-  {oneLine, stripIndents} = require('common-tags'),
+  xp = jsonfile.readFileSync(path.join(__dirname, 'data/xp.json')),
+  {oneLine} = require('common-tags'),
   {Client, FriendlyError, SyncSQLiteProvider} = require('discord.js-commando');
 
 const client = new Client({
@@ -85,7 +85,7 @@ client.on('message', (msg) => {
     // this writes the data back to the json
 
     try {
-      return fs.writeFileSync(path.join(__dirname, 'data/xp.json'), JSON.stringify(xp, null, 4));
+      return jsonfile.writeFileSync(path.join(__dirname, 'data/xp.json'), xp, {spaces: 4});
     } catch (err) {
       return console.error(err);
     }
