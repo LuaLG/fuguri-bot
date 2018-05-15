@@ -1,11 +1,12 @@
 {
-  "name": "Fuguri",
-  "version": "0.1.0",
+  "name": "fuguri",
+  "version": "0.2.0",
   "description": "A general Discord bot built with discord.js-commando and discord.js. Currently features Fire Emblem Heroes summoning, orb spending, and many more features.",
   "main": "bot.js",
   "scripts": {
     "test": "node bot.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "start": "node bot.js"
   },
   "repository": {
     "type": "git",
@@ -26,8 +27,8 @@
     "summoning"
   ],
   "engines": {
-    "node": "8.11.1",
-    "npm": "6.0.1"
+    "node": ">=8.0.0 <9.0",
+    "npm": ">=5.0.0 <7.0"
   },
   "author": "KunoichiZ",
   "license": "MIT",
@@ -36,23 +37,29 @@
   },
   "homepage": "https://github.com/KunoichiZ/fuguri-bot/blob/master/README.md",
   "dependencies": {
-    "better-sqlite3": "^4.1.0",
+    "better-sqlite3": "4.0.0",
+    "common-tags": "^1.7.2",
     "discord-money": "^0.2.0",
-    "discord.js": "github:discordjs/discord.js",
-    "discord.js-commando": "github:favna/Commando",
+    "discord.js": "favna/discord.js#main",
+    "discord.js-commando": "favna/Commando#ribbon",
+    "dotenv": "^5.0.1",
     "eightball": "^1.0.1",
+    "erlpack": "hammerandchisel/erlpack",
     "fire-emblem-heroes-stats": "^0.15.1",
+    "jsonfile": "^4.0.0",
+    "libsodium-wrappers": "^0.7.3",
     "moment": "^2.22.1",
     "moment-duration-format": "^2.2.2",
-    "node-gyp": "^3.6.2",
-    "node-opus": "^0.3.0",
-    "poke-api.js": "^1.0.4",
-    "request": "^2.86.0",
+    "node-opus": "^0.2.7",
+    "poke-api.js": "favna/poke-api.js#patch-1",
     "simple-youtube-api": "^5.0.2",
     "sqlite": "^2.9.2",
-    "ytdl-core": "^0.20.4"
+    "uws": "^9.14.0",
+    "ytdl-core": "^0.20.4",
+    "zlib-sync": "^0.1.4"
   },
   "devDependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^4.19.1",
+    "node-gyp": "^3.6.2"
   }
 }
