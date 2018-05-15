@@ -8,15 +8,8 @@ const Database = require('better-sqlite3'),
   balance = JSON.parse(fs.readFileSync(path.join(__dirname, 'data/balances.json'), 'utf8')),
   money = require('discord-money'),
   xp = JSON.parse(fs.readFileSync(path.join(__dirname, 'data/xp.json'), 'utf8')),
-  {
-    oneLine,
-    stripIndents
-  } = require('common-tags'),
-  {
-    Client,
-    FriendlyError,
-    SyncSQLiteProvider
-  } = require('discord.js-commando');
+  {oneLine, stripIndents} = require('common-tags'),
+  {Client, FriendlyError, SyncSQLiteProvider} = require('discord.js-commando');
 
 const client = new Client({
   owner: ['147800635046232064', '112001393140723712'],
