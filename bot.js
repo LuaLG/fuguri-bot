@@ -104,6 +104,7 @@ client.registry
         ['music', 'Music Commands'],
         ['owner', 'Owner Commands'],
         ['splatoon2 misc', 'Splatoon 2 Miscellaneous Commands'],
+        ['splatoon2 modes', "Commands for Splatoon 2's modes"],
         ['splatoon2 profile', 'Splatoon 2 Profile Commands'],
         ['summoning', 'Summoning Commands'],
         ['test', 'Test Commands']
